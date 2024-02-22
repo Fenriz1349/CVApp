@@ -267,4 +267,3 @@ var dataJson = """
 """
 //extraction du JSON au format String vers l'objet dataCV
 let dataCV = try! JSONDecoder().decode(DataJSON.self, from: dataJson.data(using: .utf8)!)
-

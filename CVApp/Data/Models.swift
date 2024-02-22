@@ -57,7 +57,7 @@ import Foundation
 
 //strucs codable pour parser la data en JSON
 
-//struc generale du document JSON, avec la liste des infos 
+//struc generale du document JSON, avec la liste des infos
 // french : info en français
 // english :en anglais
 // compeetences :  liste des competences informatiques
@@ -152,4 +152,3 @@ struct Contact :Codable , Identifiable {
     let linkedin : String
     let github : String
 }
-
